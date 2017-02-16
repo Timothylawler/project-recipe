@@ -1,0 +1,31 @@
+.food-card-image{
+	z-index: 5;
+}
+.food-card{
+	display: inline;
+}
+
+.food-card-on-hover-wrapper{
+	position:relative;
+	margin-top: -70%;
+}
+
+.food-card-on-hover-wrapper > .chips-wrapper{
+	left: 0;
+	bottom:0px;
+
+	
+}
+
+.chip{
+	
+}
+
+.food-card-on-hover-wrapper h3{
+	text-transform: uppercase;
+	font-size: 16px;
+	color:#f7f7f7;
+	z-index: 10;
+	padding: 8px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
