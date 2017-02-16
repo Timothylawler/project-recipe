@@ -1,4 +1,4 @@
-To run the project, navigate to the project folder, run "npm install" to install packages needed, then run the command "npm run". This will open the page in the standard browser.
+##To run the project, navigate to the project folder, run "npm install" to install packages needed, then run the command "npm run". This will open the page in the standard browser.
 
 
 
