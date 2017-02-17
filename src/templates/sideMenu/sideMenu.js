@@ -34,7 +34,10 @@ class SideMenu extends Component {
 	
   render() {
 		return(
-			<div className="side-menu">
+			<div className="side-menu z-depth-2">
+				<div className="side-menu-brand">
+					
+				</div>
 				<ul>
 					<li><a href="#">Home</a></li>
 					<li><a href="#">About</a></li>
