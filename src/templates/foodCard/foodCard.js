@@ -35,13 +35,6 @@ class FoodCard extends Component {
 		this.setState({hover:false});
 	}
 	
-	
-	showTitle(){
-		if(this.state.hover){
-			return 
-		}
-	}
-	
 	onMouseOver(){
 		return(
 			<div className="food-card-on-hover-wrapper">

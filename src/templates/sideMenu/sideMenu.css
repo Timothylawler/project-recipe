@@ -1,0 +1,17 @@
+.side-menu{
+	width: 20%;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	background-color: aqua;
+}
+
+.side-menu > ul > li{
+	text-align: center;
+	
+}
+.side-menu > ul > li > a{
+	color: #222;
+	font-size: 18px;
+	
+}

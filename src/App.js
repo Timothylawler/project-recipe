@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import FoodCard from './templates/foodCard/foodCard.js';
+import BodyContent from './templates/body/body.js';
+import SideMenu from './templates/sideMenu/sideMenu.js';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         
-				<FoodCard />
+				<SideMenu />
+				<BodyContent />
       
       </div>
     );
