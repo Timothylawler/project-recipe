@@ -1,53 +1,53 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
+import Sidebar from 'react-sidebar';
 import './sideMenu.css';
 
 
 
 class SideMenu extends Component {
 
-	constructor(props){
+	constructor(props) {
 		super(props);
-		
-		
-      
-		this.state = (
-			{hover:false}, 
-			{item: 
-				{
-					desc:"foods eggs", 
-					title:"eggs in skillet",
-					nutrition: 
-					{
-						kcal:"1000",
-						carbs: "17gr",
-						protein: "35gr",
-						fat: "5gr"
-					}
-				}
-			}
-		);
 	}
-	
-	
 
-	
-	
-  render() {
-		return(
-			<div className="side-menu z-depth-2">
-				<div className="side-menu-brand">
-					
-				</div>
+	render() {
+		
+
+    return (
+      <div className="side-menu z-depth-2">
+				<a href="#">
+					<div className="side-menu-brand">
+						Project Recipe
+					</div>
+				</a>
 				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Contact</a></li>
-					<li><a href="#">Home</a></li>
+					<li>
+						<a href="#" className="tooltipped" data-position="right" data-delay="50" data-tooltip="Recipes">
+							<i className="material-icons small">restaurant</i>
+						</a>
+					</li>
+					<li>
+						<a href="#" className="tooltipped" data-position="right" data-delay="50" data-tooltip="Contact">
+							<i className="material-icons small">phone</i>
+						</a>
+					</li><li>
+						<a href="#" className="tooltipped" data-position="right" data-delay="50" data-tooltip="Profile">
+							<i className="material-icons small">person</i>
+						</a>
+					</li>
+					<li>
+						<a href="#" className="tooltipped" data-position="right" data-delay="50" data-tooltip="Home">
+							<i className="material-icons small">home</i>
+						</a>
+					</li>
+					
+					
 				</ul>
 			</div>
-		);
-    
-  }
+    );
+
+	}
 }
+
 
 export default SideMenu;

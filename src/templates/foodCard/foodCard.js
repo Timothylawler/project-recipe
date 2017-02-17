@@ -76,13 +76,12 @@ class FoodCard extends Component {
 		return(
 			<div className="row">
 				<div 
-					className="col s4 offset-s4 food-card food-card"
+					className="food-card"
 					onMouseOver={this.hover} 
 					onMouseLeave={this.notHover} >
 					<img 
 						className={classname}
 						role="food" 
-						
 						width="auto" 
 						height="auto" 
 						src={imgSrc}

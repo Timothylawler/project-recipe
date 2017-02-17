@@ -2,7 +2,7 @@
 	z-index: 5;
 }
 .food-card{
-	display: inline;
+	
 }
 
 .food-card-on-hover-wrapper{
@@ -13,8 +13,6 @@
 .food-card-on-hover-wrapper > .chips-wrapper{
 	left: 0;
 	bottom:0px;
-
-	
 }
 
 .chip{
