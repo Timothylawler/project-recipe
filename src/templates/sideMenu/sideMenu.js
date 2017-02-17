@@ -14,7 +14,7 @@ class SideMenu extends Component {
 		
 
     return (
-      <div className="side-menu z-depth-2">
+      <div className="side-menu z-depth-3">
 				<a href="#">
 					<div className="side-menu-brand">
 						Project Recipe

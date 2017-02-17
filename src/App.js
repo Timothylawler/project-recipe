@@ -7,10 +7,10 @@ class App extends Component {
   render() {
     return (
       <div className="App row">
-        <div className="col m3">
+        <div className="col l3">
 					<SideMenu className="side-menu"/>
 				</div>
-				<div className="col m9">
+				<div className="col s12 l9">
 					<BodyContent />
 				</div>
       

@@ -7,6 +7,12 @@
 	left: 0;
 }
 
+@media (max-width: 768px){
+	.side-menu{
+		visibility: hidden;
+	}
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
