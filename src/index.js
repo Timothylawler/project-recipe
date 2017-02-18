@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route, Link, browserHistory } from 'react-router';
+import { Router, Route, browserHistory } from 'react-router';
 import App from './App';
-import BodyContent from './templates/body/body.js';
+import Recipes from './templates/recipes/recipes.js';
 import Contact from './templates/contact/contact.js';
 import './index.css';
 
 ReactDOM.render(
 	<Router history={browserHistory}>
 		<Route path="/" component={App}>
-			<Route path="home" component={BodyContent}/>
+			<Route path="home" component={Recipes}/>
 			<Route path="contact" component={Contact}/>
-			<Route path="*" component={BodyContent}/>
+			<Route path="*" component={Recipes}/>
 		</Route>
 	</Router>
   ,

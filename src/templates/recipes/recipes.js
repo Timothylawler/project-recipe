@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import './body.css';
+import './recipes.css';
 import FoodCard from '../foodCard/foodCard.js';
 import SearchBar from '../searchBar/searchBar.js';
 
-class BodyContent extends Component {
+class Recipes extends Component {
 	
 	constructor(props){
 		super(props);
@@ -26,8 +26,8 @@ class BodyContent extends Component {
 		
 		const cards = this.state.data.map(function(item, i){
 			return (
-				<div className="col s6 m4">
-					<FoodCard title={item.title} key={i}/>
+				<div className="col s6 m4" key={i}>
+					<FoodCard title={item.title} />
 				</div>
 			);
 		});
@@ -46,4 +46,4 @@ class BodyContent extends Component {
   }
 }
 
-export default BodyContent;
+export default Recipes;

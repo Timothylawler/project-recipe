@@ -6,8 +6,8 @@
 }
 
 .food-card-on-hover-wrapper{
-	position:relative;
-	margin-top: -70%;
+	position:absolute;
+	margin-top: -17%;
 }
 
 .food-card-on-hover-wrapper > .chips-wrapper{
@@ -15,13 +15,15 @@
 	bottom:0px;
 }
 
-.chip{
-	
+.chip.kcal{
+	background-color:#daa6a6;
+}
+.chip.carbs{
+	background-color:#dad2a6;
 }
 
-.food-card-on-hover-wrapper h3{
+.food-card-on-hover-wrapper p{
 	text-transform: uppercase;
-	font-size: 16px;
 	color:#f7f7f7;
 	z-index: 10;
 	padding: 8px;

@@ -36,3 +36,7 @@
 	right: 0;
 	bottom: 25px;
 }
+
+.active{
+	color: #ff38e0;
+}

@@ -40,15 +40,15 @@ class FoodCard extends Component {
 			<div className="food-card-on-hover-wrapper">
 			
 				<div className="">
-					<h3>{this.state.item.title}</h3>
+					<p className="flow-text">{this.state.item.title}</p>
 				</div>
 			
 				<div className="chips-wrapper">
-					<div className="chip">
+					<div className="chip kcal">
 						<i className="tiny material-icons">close</i>
 							{this.state.item.nutrition.kcal}
 					</div>
-					<div className="chip">
+					<div className="chip carbs">
 							<i className="tiny material-icons">close</i>
 							{this.state.item.nutrition.carbs}
 					</div>
@@ -82,6 +82,7 @@ class FoodCard extends Component {
 					<img 
 						className={classname}
 						role="food" 
+						alt="food"
 						width="auto" 
 						height="auto" 
 						src={imgSrc}

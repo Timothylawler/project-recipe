@@ -5,10 +5,6 @@ class Contact extends Component {
 	constructor(props) {
 		super(props);
 	}
-	
-	getInitialState(){
-		
-	}
 
 	render() {
 		

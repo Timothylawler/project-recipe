@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Sidebar from 'react-sidebar';
 import './searchBar.css';
 
 
