@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Sidebar from 'react-sidebar';
+import { Link } from 'react-router'
 import './sideMenu.css';
 
 
@@ -22,14 +23,18 @@ class SideMenu extends Component {
 				</a>
 				<ul>
 					<li>
-						<a href="#" className="tooltipped" data-position="right" data-delay="50" data-tooltip="Recipes">
-							<i className="material-icons small">restaurant</i>
-						</a>
+						<Link to="/home">
+							<a href="#" className="tooltipped" data-position="right" data-delay="50" data-tooltip="Recipes">
+								<i className="material-icons small">restaurant</i>
+							</a>
+						</Link>
 					</li>
 					<li>
-						<a href="#" className="tooltipped" data-position="right" data-delay="50" data-tooltip="Contact">
-							<i className="material-icons small">phone</i>
+						<Link to="/contact">
+							<a href="#" className="tooltipped" data-position="right" data-delay="50" data-tooltip="Contact">
+								<i className="material-icons small">phone</i>
 						</a>
+						</Link>
 					</li><li>
 						<a href="#" className="tooltipped" data-position="right" data-delay="50" data-tooltip="Profile">
 							<i className="material-icons small">person</i>

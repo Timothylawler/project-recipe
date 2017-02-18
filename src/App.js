@@ -11,7 +11,7 @@ class App extends Component {
 					<SideMenu className="side-menu"/>
 				</div>
 				<div className="col s12 l9">
-					<BodyContent />
+					{this.props.children}
 				</div>
       
       </div>
@@ -20,3 +20,7 @@ class App extends Component {
 }
 
 export default App;
+
+/*
+					<BodyContent />
+				*/
