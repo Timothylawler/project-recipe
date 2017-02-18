@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 import './foodCard.css';
 
 
@@ -75,6 +76,7 @@ class FoodCard extends Component {
 		
 		return(
 			<div className="row">
+				<Link to="/recipe">
 				<div 
 					className="food-card"
 					onMouseOver={this.hover} 
@@ -94,6 +96,7 @@ class FoodCard extends Component {
 					}
 					
 				</div>
+				</Link>
 			</div>
 		);
     

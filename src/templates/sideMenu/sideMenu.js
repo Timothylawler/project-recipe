@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import { Link } from 'react-router'
+import { Link } from 'react-router';
+
 import './sideMenu.css';
 
 
@@ -15,14 +16,14 @@ class SideMenu extends Component {
 
     return (
       <div className="side-menu z-depth-3">
-				<Link to="/home">
+				<Link to="/">
 					<div className="side-menu-brand">
 						Project Recipe
 					</div>
 				</Link>
 				<ul>
 					<li>
-						<Link to="/home" activeStyle={{ color: "#4e4e4e" }} className="tooltipped" data-position="right" data-delay="50" data-tooltip="Recipes">
+						<Link to="/recipes" activeStyle={{ color: "#4e4e4e" }} className="tooltipped" data-position="right" data-delay="50" data-tooltip="Recipes">
 							<i className="material-icons small">restaurant</i>
 						</Link>
 					</li>

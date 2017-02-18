@@ -1,0 +1,16 @@
+.description-wrapper{
+	font-size: 18px;
+}
+
+.add-recipe-fab{
+	z-index: 10;
+	position: absolute;
+	bottom: 12px;
+	right: 150px;
+}
+
+@media (min-width: 768px){
+	.recipe-full-wrapper{
+		margin-left: -150px;
+	}
+}
