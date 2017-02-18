@@ -43,6 +43,11 @@ class SideMenu extends Component {
 					
 					
 				</ul>
+			
+				<div className="side-menu-alt-text center">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elit nisl, mattis rhoncus neque ullamcorper, elementum dictum mi. Nunc tincidunt nisl quis risus condimentum, eu dignissim nibh suscipit.
+			
+				</div>
 			</div>
     );
 

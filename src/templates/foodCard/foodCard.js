@@ -11,7 +11,7 @@ class FoodCard extends Component {
 			{item: 
 				{
 					desc:"foods eggs", 
-					title:"eggs in skillet",
+					title:this.props.title,
 					nutrition: 
 					{
 						kcal:"1000",

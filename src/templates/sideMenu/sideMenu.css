@@ -25,5 +25,14 @@
 .side-menu > ul > li > a{
 	color: #f2f2f2;
 	font-size: 18px;
-	
+}
+
+
+.side-menu-alt-text{
+	position: absolute;
+	padding: 12px;
+	color: #606060;
+	left: 0; 
+	right: 0;
+	bottom: 25px;
 }
