@@ -1,13 +1,15 @@
 .food-card-image{
 	z-index: 5;
 }
+
 .food-card{
-	
+	margin-left: 12px;
+	margin-right: 12px;
 }
 
 .food-card-on-hover-wrapper{
 	position:absolute;
-	margin-top: -17%;
+	margin-top: -15%;
 }
 
 .food-card-on-hover-wrapper > .chips-wrapper{

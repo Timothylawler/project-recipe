@@ -1,5 +1,4 @@
 .side-menu{
-	overflow: hidden;
 	width:15%;
 	height: 100%;
 	position: fixed;
@@ -39,4 +38,17 @@
 
 .active{
 	color: #ff38e0;
+}
+
+.triangle{
+	position: absolute;
+	top: 48px;
+	right: -20px;
+	
+	width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+	border-left: 20px solid #222;
+	border-bottom: 15px solid transparent;
+
 }

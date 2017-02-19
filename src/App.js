@@ -10,7 +10,7 @@ class App extends Component {
         <div className="col l3">
 					<SideMenu className="side-menu"/>
 				</div>
-				<div className="col s12 l9 content">
+				<div className="col s12 l9 content container">
 					{
 						this.props.children || 
 						<SelectedRecipes />

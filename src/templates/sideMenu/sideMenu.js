@@ -51,6 +51,10 @@ class SideMenu extends Component {
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elit nisl, mattis rhoncus neque ullamcorper, elementum dictum mi. Nunc tincidunt nisl quis risus condimentum, eu dignissim nibh suscipit.
 			
 				</div>
+			
+				<div className="triangle">
+					
+				</div>
 			</div>
     );
 

@@ -9,8 +9,3 @@
 	right: 150px;
 }
 
-@media (min-width: 768px){
-	.recipe-full-wrapper{
-		margin-left: -150px;
-	}
-}
