@@ -1,0 +1,26 @@
+.side{
+	background-color: rgb(34, 34, 34) !important;
+	height: 100%;
+	padding-top: 48px !important;
+}
+
+.menu-brand{
+	font-size: 32px !important;
+	color: #fd76b9 !important;
+	margin-bottom: 48px !important;
+}
+
+.menu-item{
+	margin-top: 12px !important;
+	padding: 8px !important;
+}
+
+.side-menu-alt-text{
+	position: absolute;
+	padding: 12px;
+	color: #606060;
+	left: 0; 
+	right: 0;
+	bottom: 25px;
+}
+

@@ -13,13 +13,15 @@ class SelectedRecipes extends Component {
 		
 		this.state= {
 			top: {
-				title: "The best chicken ever",
-				description: "Omg you cant believe this!",
-				image: "https://iso.500px.com/wp-content/uploads/2015/12/food_cover-1500x1000.jpg",
-				featured: true,
+				
 			},
 			recipes : [
-			
+				{
+					title: "The best chicken ever",
+					description: "Omg you cant believe this!",
+					image: "https://iso.500px.com/wp-content/uploads/2015/12/food_cover-1500x1000.jpg",
+					featured: true,
+				},
 				{
 					title: "chicken with sesame oil",
 					description: "very tasty indeed",
@@ -48,9 +50,14 @@ class SelectedRecipes extends Component {
 		
 		const recipes = this.state.recipes.map(function(item, i){
 			return(
-				<div className="col s6" key={i}>
-					<FoodCard title={item.title}/>
-				</div>
+				<GridTile
+					key={i}
+					title={item.title}
+					cols={item.featured ? 3:1}
+					rows={item.featured ? 2:1}
+				>
+					<FoodCard />
+				</GridTile>
 			);
 		});
 		
@@ -73,17 +80,15 @@ class SelectedRecipes extends Component {
 					<h1>Recommended recipes</h1>
 				</div>
 				
-				<div className="recipe-wrapper">
-					<div className="row">
-						<div className="col m6 s12">
-							<FoodCard title={this.state.top.title}/>
-						</div>
-						<div className="col m6 s12">
-							<div className="row">
-								{recipes}
-							</div>
-						</div>
-					</div>
+				<div>
+					<GridList 
+						cols={3}
+						cellHeight={250}
+						padding={12}
+						style={styles.gridList}
+					>
+						{recipes}
+					</GridList>
 				</div>
 			
 			</div>
