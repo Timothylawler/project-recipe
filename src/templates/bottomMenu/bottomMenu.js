@@ -27,6 +27,9 @@ class BottomMenu extends Component {
 			case 1:
 				browserHistory.push('/recipes');
 				break;
+			case 2:
+				browserHistory.push('/contact');
+				break;
 		}
 	}
 	
