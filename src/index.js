@@ -5,6 +5,7 @@ import App from './App';
 import Recipes from './templates/recipes/recipesMaterialize.js';
 import RecipeFull from './templates/recipeFull/recipeFull.js';
 import Contact from './templates/contact/contact.js';
+import ProfilePage from './templates/profilePage/profilePage.js';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import './index.css';
@@ -19,6 +20,7 @@ ReactDOM.render(
 			
 			<Route path="contact" component={Contact}/>
 			<Route path="recipe" component={RecipeFull}/>
+			<Route path="profile" component={ProfilePage}/>
 			<Route path="*" component={Recipes}/>
 		</Route>
 	</Router>

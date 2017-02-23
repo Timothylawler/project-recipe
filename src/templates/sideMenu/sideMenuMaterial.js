@@ -41,6 +41,11 @@ class SideMenuMaterial extends Component {
 									<i className="material-icons small menu-item">phone</i>
 								</Link>
 							</li>
+							<li>
+								<Link to="/profile" activeStyle={{ color: "#4e4e4e" }} className="tooltipped" data-position="right" data-delay="50" data-tooltip="Profile">
+									<i className="material-icons small menu-item">person</i>
+								</Link>
+							</li>
 							
 						</ul>
 			

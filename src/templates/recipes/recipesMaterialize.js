@@ -109,7 +109,7 @@ class Recipes extends Component {
 		
 		
     return (
-      <div className="padding-top-48">
+      <div className="margin-top-48">
 				<SearchBar />
 			
 				<div>
