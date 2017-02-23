@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import Paper from 'material-ui/Paper';
 import FontIcon from 'material-ui/FontIcon';
 import {BottomNavigation, BottomNavigationItem} from 'material-ui/BottomNavigation';
-import IconLocationOn from 'material-ui/svg-icons/communication/location-on';
 import { browserHistory } from 'react-router';
 import './bottomMenu.css';
 
@@ -30,6 +29,9 @@ class BottomMenu extends Component {
 			case 2:
 				browserHistory.push('/contact');
 				break;
+			default: 
+				browserHistory.push('/');
+				break;
 		}
 	}
 	
@@ -40,21 +42,21 @@ class BottomMenu extends Component {
 				<BottomNavigation selectedIndex={this.state.selectedIndex}>
 					<BottomNavigationItem
 						label="Start"
-						icon = {homeIcon}
+						icon={homeIcon}
 						onTouchTap={function(){
 							self.select(0);
 						}}
 					/>
 					<BottomNavigationItem
 						label="Recipes"
-						icon = {recipesIcon}
+						icon={recipesIcon}
 						onTouchTap={function(){
 							self.select(1);
 						}}
 					/>
 					<BottomNavigationItem
 						label="Something else"
-						icon = {homeIcon}
+						icon={homeIcon}
 						onTouchTap={function(){
 							self.select(2);
 						}}

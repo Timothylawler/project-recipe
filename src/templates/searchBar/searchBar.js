@@ -6,14 +6,10 @@ import './searchBar.css';
 
 class SearchBar extends Component {
 
-	constructor(props) {
-		super(props);
-	}
-
 	render() {
 		
     return (
-      <div className="search-bar-wrapper">
+      <div className="search-bar-wrapper row">
 				<form className="col s12">
 					<div className="row">
 						<Input className="input-field" s={6} label="Search..." >
